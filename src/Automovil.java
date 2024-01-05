@@ -3,6 +3,7 @@ public class Automovil {
     String marca= "Prueba";
     String modelo;
     double cilindrada;
+    int capacidadEstanque= 40;
 
     public String verDetalle(){
         StringBuilder sb = new StringBuilder();
@@ -27,6 +28,14 @@ public class Automovil {
     }
 
 
+    //Calcular consumo principio de sobrecarga de metodos
+    public float calcularConsumo (float km, float porcentajeGasolina){
+        return km/(porcentajeGasolina*capacidadEstanque);
+    }
+
+    public float calcularConsumo (float km, int porcentajeGasolina){
+        return km/((porcentajeGasolina/100f)*capacidadEstanque);
+    }
 
 
 }

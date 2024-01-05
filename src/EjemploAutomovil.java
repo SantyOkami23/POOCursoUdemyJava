@@ -23,6 +23,9 @@ public class EjemploAutomovil {
 
         System.out.println(automovilMazda.acelerarFrenar(3000));
 
+        System.out.println("Kilometros por litro  Ford  " + automovilFord.calcularConsumo(300, 0.6f));
+        System.out.println("Kilometros por litro Mazda  " + automovilMazda.calcularConsumo(300, 60));
+
 
 /*
         System.out.println("Instancia Automovil generic"  );

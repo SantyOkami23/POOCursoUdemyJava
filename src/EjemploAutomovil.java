@@ -1,22 +1,22 @@
 public class EjemploAutomovil {
 
     public static void main (String[] args){
-        Automovil automovilFord = new Automovil();
+
 
 
         // Asignacion de valores Subaru
-        automovilFord.fabricante = "Ford";
-        automovilFord.marca = "Fiesta";
-        automovilFord.modelo = "Sedan";
-        automovilFord.cilindrada = 1.6;
+        Automovil automovilFord = new Automovil();
+        automovilFord.setFabricante("Ford");
+        automovilFord.setMarca("Fiesta");
+        automovilFord.setModelo("Sedan");
+        automovilFord.setCilindrada(1.6);
 
         // Asignacion de valores Mazda
         Automovil automovilMazda = new Automovil();
-        automovilMazda.fabricante = "Mazda";
-        automovilMazda.marca = "Mazda 3";
-        automovilMazda.modelo = "Sedan";
-        automovilMazda.cilindrada = 2.0;
-
+        automovilMazda.setFabricante("Mazda");
+        automovilMazda.setMarca("Mazda 3 ");
+        automovilMazda.setModelo("Sedan");
+        automovilMazda.setCilindrada(2.0);
 
         System.out.println(automovilMazda.verDetalle());
         System.out.println(automovilFord.verDetalle());

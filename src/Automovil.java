@@ -1,17 +1,66 @@
 public class Automovil {
-    String fabricante ;
-    String marca= "Prueba";
-    String modelo;
-    double cilindrada;
-    int capacidadEstanque= 40;
+    private   String fabricante ;
+    private String marca= "Prueba";
+    private String modelo;
+    private  double cilindrada;
+    private int capacidadEstanque= 40;
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public double getCilindrada() {
+        return cilindrada;
+    }
+
+    public void setCilindrada(double cilindrada) {
+        this.cilindrada = cilindrada;
+    }
+
+    public int getCapacidadEstanque() {
+        return capacidadEstanque;
+    }
+
+    public void setCapacidadEstanque(int capacidadEstanque) {
+        this.capacidadEstanque = capacidadEstanque;
+    }
+
+
+
+
+
+
+
+
 
     public String verDetalle(){
         StringBuilder sb = new StringBuilder();
-        sb.append("fabricante = ").append(this.fabricante);
-        sb.append("\nmarca = ").append(this.marca);
-        sb.append("\nmodelo = ").append(this.modelo);
-        sb.append("\ncilindrada = ").append(this.cilindrada);
-        return sb.toString();
+
+        return  "auto.fabricante = " + this.fabricante + "\n" +
+                "auto.marca = " + this.marca + "\n" +
+                "auto.modelo = " + this.modelo + "\n" +
+                "auto.cilindrada = " + this.cilindrada + "\n" +
+                "auto.capacidadEstanque = " + this.capacidadEstanque ;
     }
 
     public String realizarAceleleracion(int rpm){

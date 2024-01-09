@@ -1,11 +1,14 @@
 
+c
+java:S1192"FDefine a constant instead of duplicating this literal "Sedan" 3 times.(»œ÷ç8¹Áÿ÷Î1
 e
-java:S1854"CRemove this useless assignment to local variable "automovilNissan".(Êí€†ıÿÿÿÿ8¹«®÷Î1
+java:S1854"CRemove this useless assignment to local variable "automovilNissan".(Êí€†ıÿÿÿÿ8„úù÷Î1
 V
-java:S1481"4Remove this unused "automovilNissan" local variable.(Êí€†ıÿÿÿÿ8Å«®÷Î1
-L	java:S106"+Replace this use of System.out by a logger.(Û„©øÿÿÿÿ8Æ«®÷Î1
-G	java:S106"+Replace this use of System.out by a logger.(ˆöÚß8É«®÷Î1
-F	java:S106"+Replace this use of System.out by a logger.(îÆíu8Ë«®÷Î1
-G	java:S106"+Replace this use of System.out by a logger.(µ¡ü¼8Í«®÷Î1
-G	java:S106"+Replace this use of System.out by a logger.(‚Šü8Ï«®÷Î1
-W	java:S125 "<This block of commented-out lines of code should be removed.(¡Õ¡8Ô«®÷Î1
+java:S1481"4Remove this unused "automovilNissan" local variable.(Êí€†ıÿÿÿÿ8ˆúù÷Î1
+G	java:S106"+Replace this use of System.out by a logger.(Í±®8 óø÷Î1
+L	java:S106"+Replace this use of System.out by a logger.(Û„©øÿÿÿÿ8¡óø÷Î1
+G	java:S106"+Replace this use of System.out by a logger.(ˆöÚß8¢óø÷Î1
+F	java:S106"+Replace this use of System.out by a logger.(îÆíu8£óø÷Î1
+G	java:S106"+Replace this use of System.out by a logger.(µ¡ü¼8¤óø÷Î1
+G	java:S106"+Replace this use of System.out by a logger.(‚Šü8¦óø÷Î1
+W	java:S125"<This block of commented-out lines of code should be removed.(¡Õ¡8¨óø÷Î1

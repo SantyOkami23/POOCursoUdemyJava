@@ -4,6 +4,7 @@ public class Automovil {
     private String modelo;
     private  double cilindrada;
     private int capacidadEstanque= 40;
+    private String color;
 
     //Sobre carga de constructores
     public   Automovil(String fabricante, String modelo){
@@ -16,6 +17,35 @@ public class Automovil {
 
     }
 
+    public Automovil(String fabricante, String modelo, String color) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.color = color;
+    }
+
+    public Automovil(String fabricante, String modelo, double cilindrada, String color) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.cilindrada = cilindrada;
+        this.color = color;
+    }
+
+    public Automovil(String fabricante, String marca, String modelo, double cilindrada, int capacidadEstanque, String color) {
+        this.fabricante = fabricante;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.cilindrada = cilindrada;
+        this.capacidadEstanque = capacidadEstanque;
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
     public String getFabricante() {
         return fabricante;
     }

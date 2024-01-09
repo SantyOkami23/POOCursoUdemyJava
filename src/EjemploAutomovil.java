@@ -8,17 +8,16 @@ public class EjemploAutomovil {
         automovilFord.setCilindrada(1.6);
 
         // Asignacion de valores Mazda
-        Automovil automovilMazda = new Automovil("Mazda","Mazda 3 ");
-        automovilMazda.setModelo("Sedan");
-        automovilMazda.setCilindrada(2.0);
+        Automovil automovilMazda = new Automovil("Mazda","Mazda 3 ","Sedan",2.0,45,"Rojo");
+
+        Automovil automovilCacharro = new Automovil("Cacharro","Mazda 3 ","Sedan",2.0,45,"Rojo");
+
 
 
         Automovil automovilNissan = new Automovil();
 
 
-
-
-
+        System.out.println(automovilCacharro.verDetalle());
         System.out.println(automovilMazda.verDetalle());
         System.out.println(automovilFord.verDetalle());
 

@@ -5,6 +5,17 @@ public class Automovil {
     private  double cilindrada;
     private int capacidadEstanque= 40;
 
+    //Sobre carga de constructores
+    public   Automovil(String fabricante, String modelo){
+        this.fabricante= fabricante;
+        this.modelo= modelo;
+
+    }
+
+    public Automovil(){
+
+    }
+
     public String getFabricante() {
         return fabricante;
     }
@@ -46,21 +57,14 @@ public class Automovil {
     }
 
 
-
-
-
-
-
-
-
     public String verDetalle(){
         StringBuilder sb = new StringBuilder();
 
-        return  "auto.fabricante = " + this.fabricante + "\n" +
-                "auto.marca = " + this.marca + "\n" +
-                "auto.modelo = " + this.modelo + "\n" +
-                "auto.cilindrada = " + this.cilindrada + "\n" +
-                "auto.capacidadEstanque = " + this.capacidadEstanque ;
+        return  "auto.fabricante = " + this.getFabricante() + "\n" +
+                "auto.marca = " + this.getMarca() + "\n" +
+                "auto.modelo = " + this.getModelo() + "\n" +
+                "auto.cilindrada = " + this.getCilindrada() + "\n" +
+                "auto.capacidadEstanque = " + this.getCapacidadEstanque();
     }
 
     public String realizarAceleleracion(int rpm){
